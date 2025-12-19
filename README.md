@@ -1,26 +1,20 @@
-# Nexus Portfolio – AI Driven Showcase 🚀
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-An AI-powered personal portfolio showcasing projects, skills, and achievements using modern web technologies.  
-This portfolio is designed to present work in a clean, interactive, and intelligent way.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🌟 Features
-- AI-powered content presentation
-- Modern and responsive UI
-- Project showcase with details
-- Skills and experience section
-- Contact and social links integration
-- Fast and lightweight design
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
----
+## Run Locally
 
-## 🛠️ Tech Stack
-- HTML5 / CSS3
-- JavaScript
-- AI-based enhancements
-- Git & GitHub
+**Prerequisites:**  Node.js
 
----
 
-## 📂 Project Structure
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
